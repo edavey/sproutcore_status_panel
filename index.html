@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/x-handlebars" data-template-name="offerables-view">
+  <div class="offerables">
+  <h2>Offerables</h2>
+    {{#collection contentBinding="content" itemClass="offerable"}}
+      <span class="title">{{content.title}}</span>
+    {{/collection}}
+  </div>
+  </script>
+  
+  <script type="text/x-handlebars" data-template-name="offers-view">
+  <div class="offers">
+  <h2>offers</h2>    
+  {{#collection contentBinding="content.offers" itemClass="offer"}}
+    <span>{{content.tutor}}</span>
+    <span>{{content.tuition_rate}}</span>
+  {{/collection}}
+  </div>
+  </script>
+  
+  <link rel="stylesheet" href="assets/bpm_styles.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" charset="utf-8" />
+  <title>Status Panel</title>
+</head>
+<body>  
+
+
+  <script type="text/x-handlebars">
+  <h1>Widget</h1>    
+  
+  {{view contentBinding="HTH.offerablesController" templateName="offerables-view"}}
+  
+  </script>
+</body>
+
+<script type="text/javascript" src="assets/bpm_libs.js"></script>
+<script type="text/javascript" src="lib/hth.js"></script>
+</html>

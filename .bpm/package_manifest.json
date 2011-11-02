@@ -1,0 +1,54 @@
+{
+  "sproutcore": {
+    "version": "2.0.beta.3.1",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-2.0.beta.3.1"
+  },
+  "sproutcore-datastore": {
+    "version": "2.0.beta.2",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-datastore-2.0.beta.2"
+  },
+  "jquery": {
+    "version": "1.6.2",
+    "path": "/Users/edavey/.bpm/gems/jquery-1.6.2"
+  },
+  "uglify-js": {
+    "version": "1.0.7",
+    "path": "/Users/edavey/.bpm/gems/uglify-js-1.0.7"
+  },
+  "spade": {
+    "version": "1.0.2",
+    "path": "/Users/edavey/.bpm/gems/spade-1.0.2"
+  },
+  "sproutcore-runtime": {
+    "version": "2.0.beta.3",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-runtime-2.0.beta.3"
+  },
+  "sproutcore-views": {
+    "version": "2.0.beta.3",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-views-2.0.beta.3"
+  },
+  "sproutcore-handlebars": {
+    "version": "2.0.beta.3",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-handlebars-2.0.beta.3"
+  },
+  "sproutcore-handlebars-format": {
+    "version": "2.0.beta.3.1",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-handlebars-format-2.0.beta.3.1"
+  },
+  "sproutcore-datetime": {
+    "version": "2.0.beta.3",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-datetime-2.0.beta.3"
+  },
+  "sproutcore-indexset": {
+    "version": "2.0.beta.3",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-indexset-2.0.beta.3"
+  },
+  "sproutcore-metal": {
+    "version": "2.0.beta.3",
+    "path": "/Users/edavey/.bpm/gems/sproutcore-metal-2.0.beta.3"
+  },
+  "handlebars": {
+    "version": "1.0.0.beta.3",
+    "path": "/Users/edavey/.bpm/gems/handlebars-1.0.0.beta.3"
+  }
+}

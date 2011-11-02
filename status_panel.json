@@ -1,0 +1,22 @@
+{
+  "name": "status_panel",
+  "bpm": "1.0.0",
+  "bpm:build": {
+    "bpm_libs.js": {
+      "files": [
+
+      ],
+      "minifier": "uglify-js"
+    },
+    "bpm_styles.css": {
+      "files": [
+
+      ]
+    }
+  },
+  "dependencies": {
+    "sproutcore": ">= 0.pre",
+    "sproutcore-datastore": "= 2.0.beta.2",
+    "jquery": ">= 0"
+  }
+}
