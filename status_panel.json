@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "sproutcore": ">= 0.pre",
-    "sproutcore-datastore": "= 2.0.beta.2",
+    "sproutcore-datastore": ">= 0.pre",
     "jquery": ">= 0"
   }
 }

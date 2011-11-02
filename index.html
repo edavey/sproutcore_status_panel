@@ -6,6 +6,7 @@
   <h2>Offerables</h2>
     {{#collection contentBinding="content" itemClass="offerable"}}
       <span class="title">{{content.title}}</span>
+      {{view contentBinding="HTH.offersController" templateName="offers-view"}}
     {{/collection}}
   </div>
   </script>
@@ -13,7 +14,7 @@
   <script type="text/x-handlebars" data-template-name="offers-view">
   <div class="offers">
   <h2>offers</h2>    
-  {{#collection contentBinding="content.offers" itemClass="offer"}}
+  {{#collection contentBinding="content" itemClass="offer"}}
     <span>{{content.tutor}}</span>
     <span>{{content.tuition_rate}}</span>
   {{/collection}}
